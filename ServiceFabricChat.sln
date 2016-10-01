@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ServiceFabricChat", "ServiceFabricChat\ServiceFabricChat.sfproj", "{F785E9EA-89E5-4FB2-9B92-022810D6F7BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatActor", "..\..\..\Users\mioteg\Documents\Visual Studio 2015\Projects\ServiceFabricChat\ChatActor\ChatActor.csproj", "{5A2B0365-E733-4224-8AD2-75B9E77E7192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatActor.Interfaces", "..\..\..\Users\mioteg\Documents\Visual Studio 2015\Projects\ServiceFabricChat\ChatActor.Interfaces\ChatActor.Interfaces.csproj", "{2249F965-892F-42BA-909E-B1D26E16AE38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F785E9EA-89E5-4FB2-9B92-022810D6F7BC}.Debug|x64.ActiveCfg = Debug|x64
+		{F785E9EA-89E5-4FB2-9B92-022810D6F7BC}.Debug|x64.Build.0 = Debug|x64
+		{F785E9EA-89E5-4FB2-9B92-022810D6F7BC}.Debug|x64.Deploy.0 = Debug|x64
+		{F785E9EA-89E5-4FB2-9B92-022810D6F7BC}.Release|x64.ActiveCfg = Release|x64
+		{F785E9EA-89E5-4FB2-9B92-022810D6F7BC}.Release|x64.Build.0 = Release|x64
+		{F785E9EA-89E5-4FB2-9B92-022810D6F7BC}.Release|x64.Deploy.0 = Release|x64
+		{5A2B0365-E733-4224-8AD2-75B9E77E7192}.Debug|x64.ActiveCfg = Debug|x64
+		{5A2B0365-E733-4224-8AD2-75B9E77E7192}.Debug|x64.Build.0 = Debug|x64
+		{5A2B0365-E733-4224-8AD2-75B9E77E7192}.Release|x64.ActiveCfg = Release|x64
+		{5A2B0365-E733-4224-8AD2-75B9E77E7192}.Release|x64.Build.0 = Release|x64
+		{2249F965-892F-42BA-909E-B1D26E16AE38}.Debug|x64.ActiveCfg = Debug|x64
+		{2249F965-892F-42BA-909E-B1D26E16AE38}.Debug|x64.Build.0 = Debug|x64
+		{2249F965-892F-42BA-909E-B1D26E16AE38}.Release|x64.ActiveCfg = Release|x64
+		{2249F965-892F-42BA-909E-B1D26E16AE38}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
